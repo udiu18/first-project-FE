@@ -1,0 +1,511 @@
+:root{
+    --primary-color: #e50914;
+}
+
+p
+{
+    position: relative;
+}
+
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body
+{
+    font-family: 'sans-serif', 'Open sans';
+    font-stretch: condensed;
+    background: #000;
+}
+
+.header 
+{   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    height: 65vh;
+    position: relative;
+    border-bottom: 0.5rem solid rgb(30, 30, 30);
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1280,h_720,q_75,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs") no-repeat center center/cover ;
+}
+
+.header::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 20px 100px 250px #000;
+}
+
+.header-img
+{
+    position: absolute;
+    top: -3%;
+    left: 10%;
+    width: 185px;
+    z-index: 2;
+    margin-top: 8px;
+}
+
+.btn
+{
+    background-color: var(--primary-color);
+    font-family: inherit;
+    padding: 0.4rem 1rem 0.3rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.btn:hover
+{
+    background: #b20a12;
+    cursor: pointer;
+}
+
+.btn-top-right
+{
+    font-weight: 500;
+    margin: 8px;
+    position: absolute;
+    right: 12%;
+    top: 3%;
+}
+
+
+
+#text-1
+{
+    margin-top: 280px;
+    margin-bottom: 20px;
+    z-index: 2;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+#text-2
+{
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    font-weight: 450;
+    z-index: 2;
+}
+
+#text-3
+{
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    font-weight: 450;
+    z-index: 2;
+}
+
+#email-signup
+{
+    width: 23rem;
+    line-height: 3rem;
+    border: 4px white;
+    border-radius: 0.25rem;
+    padding: 0 1.25vh;
+    z-index: 2;
+    position: relative;
+    opacity: 0.7;
+    background: #242424;
+    border: 2px solid #575757;
+    vertical-align: middle;
+}
+
+.btn-middle
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.7rem;
+    padding-left: 25px;
+    padding-right: 45px;
+    margin-left: 5px;
+    z-index: 2;
+    position: relative;
+}
+
+::placeholder
+{
+    padding-left: 1vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    color: #d0cfcf;
+}
+
+#first-section-text-1
+{
+    font-size: 3.1rem;
+    font-weight: 800;
+    margin-left: 18vh;
+    margin-top: 200px;
+}
+
+#first-section-text-2
+{
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 18vh;
+    margin-bottom: 20vh;
+}
+
+#first-section-video
+{
+    position: absolute;
+    top: 79.5%;
+    right: 18%;
+    width: 43vh;
+    z-index: 1;
+}
+
+#first-section-img
+{
+    position: relative;
+    z-index: 2;
+    width: 63vh;
+    margin-right: 225px;
+    margin-top: 2.2vh;
+    margin-bottom: 80px;
+    margin-left: 5px;
+}
+
+.flex-box-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+
+}
+
+.first-section
+{
+    border-bottom: 0.5rem solid rgb(30, 30, 30);
+}
+
+.flex-box-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#second-section-text-1
+{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-top: 160px;
+    margin-right: 80px;
+}
+
+#second-section-text-2
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+#second-section-img
+{
+    width: 42%;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 200px;
+}
+
+.boxshot-part
+{
+    position: absolute;
+    left: 32vh;
+    top: 168vh;
+    border-radius: 15px;
+}
+
+.boxshot-image
+{
+    width: 5vh;
+
+}
+
+.flexbox-boxshot
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.boxshot-part
+{
+    background: #000;
+    border: 2px solid #575757;
+    padding: 1vh 18vh 1vh 1vh;
+}
+
+.img-downloading-animation
+{
+    margin-left: 1.5vh;
+    font-weight: 650;
+}
+
+.downloading-text{
+    margin-left: -1vh;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #0071eb;
+}
+
+#boxshot-gif
+{
+    width: 100vh;
+    z-index: 2;
+    position: absolute;
+}
+
+.second-section
+{
+    border-bottom: 0.5rem solid rgb(30, 30, 30);
+}
+
+.flex-box-3
+{
+    margin-top: -15vh;
+    margin-left: 17vh;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#third-section-text-1
+{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-top: 31vh;
+    margin-right: 80px;
+}
+
+#third-section-text-2
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+#third-section-img
+{
+    position: relative;
+    z-index: 2;
+    width: 63vh;
+    margin-top: none;
+    margin-right: 1rem;
+}
+
+#third-section-video
+{
+    top: 27vh;
+    width: 40vh;
+    right: -11vh;
+    z-index: 0;
+    position: relative;
+}
+
+.third-section
+{
+    border-bottom: 0.5rem solid rgb(30, 30, 30);
+}
+
+.flex-box-4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fourth-section-img
+{
+    width: 110vh;
+    margin-left: 20vh;
+    margin-top: 7vh;
+}
+
+#fourth-section-text-1
+{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 4rem;
+    margin-top: 18vh;
+}
+
+#fourth-section-text-2
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 6vh;
+    margin-bottom: 100px;
+    margin-right: 18vh;
+}
+
+.fourth-section
+{
+    border-bottom: 0.5rem solid rgb(30, 30, 30);
+}
+
+.frequently-asked-questions-title
+{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    font-stretch: condensed;
+    margin-top: 5vh;
+    margin-bottom: 3rem;
+}
+
+.questions
+{
+    margin-left: 10vh;
+    list-style-type: none;
+}
+
+.faq-list
+{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: left;
+    padding: 1.5rem;
+    border: none;
+    margin: -1rem 5.8rem;
+    background-color: rgb(45, 45, 45);
+    width: 82%;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.faq-list:hover
+{
+    background-color: #575757;
+    cursor: pointer;
+}
+
+.faq-accordion-0, .faq-accordion-1, .faq-accordion-2, .faq-accordion-3, .faq-accordion-4, .faq-accordion-5  
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #303030;
+    margin-top: 0.1vh;
+    margin-left: 8.5vh;
+    margin-right: 20.5vh;
+    padding: 1.25rem;
+    visibility: collapse;
+    width: 0;
+    height: 0;
+}
+
+#footer
+{
+    text-align: center; 
+    margin-top: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1.5vh;
+}
+
+.footer-flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.btn-footer
+{
+    margin-left: 1vh;
+    width: 11.7%;
+    line-height: 180%;
+    font-size: 1.5rem;
+    margin-top: 1.25vh;
+    font-weight: 700;
+}
+
+.email-signup-down
+{
+    width: 23rem;
+    line-height: 3.3rem;
+    border: 4px white;
+    border-radius: 0.25rem;
+    padding: 0 1.25vh;
+    z-index: 2;
+    position: relative;
+    opacity: 0.7;
+    background: rgba(18, 18, 18, 1);
+    border: 2px solid #575757;
+    vertical-align: middle;
+    margin-top: 1.25vh;
+}
+
+.footer-class-box
+{
+    border-bottom: 0.5rem solid rgb(30, 30, 30);
+}
+
+.flex-box-last-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 2vh; 
+    margin-top: 10vh;
+    margin-right: 25vh;
+    margin-bottom: 0;
+}
+
+.first-row, .second-row, .third-row, .fourth-row
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#first-row-text-1, #first-row-text-2, #first-row-text-3, #first-row-text-4, #second-row-text-4, #second-row-text-1, #second-row-text-2, #second-row-text-3, #second-row-text-4, #third-row-text-1, #third-row-text-2, #third-row-text-3, #third-row-text-4, #fourth-row-text-1, #fourth-row-text-2, #fourth-row-text-3, #fourth-row-text-4
+{
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: #d0cfcf;
+}
+
+#questions-title
+{
+    position: absolute;
+    color: #d0cfcf;
+    font-size: 1rem;
+    margin-left: 20.8vh;
+    margin-top: -1.9vh;
+}
